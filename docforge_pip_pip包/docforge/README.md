@@ -13,7 +13,7 @@
 ### 方式一：从 PyPI 安装（推荐）
 
 ```bash
-pip install docforge
+pip install python-docforge
 ```
 
 ### 方式二：从源码安装
