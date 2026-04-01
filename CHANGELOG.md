@@ -20,8 +20,7 @@
 - Excel替换器（excel_replacer）：将数据填入Excel模板
 - Word替换器（docx_replacer）：将数据填入Word模板
 - Word合并器（docx_combiner）：合并多个Word文档
-- 活动数据处理器（activity_data_processor）：处理活动数据
-- 数据文件生成器（data_file_generator）：生成数据文件
+- ...
 
 ### 文档
 - 完整的README文档
@@ -43,13 +42,7 @@
 - [ ] 支持更多文件格式
 - [ ] 性能优化
 - [ ] 单元测试覆盖
-- [ ] GUI界面（长期目标）
-
-### [0.3.0] - 计划中
-- [ ] 插件市场
-- [ ] 云端同步
-- [ ] 协作功能
-- [ ] API文档自动生成
+- [ ] GUI界面（梦想）
 
 ---
 
