@@ -389,9 +389,7 @@ api.logger.set_level(LogLevel.DEBUG)
 A: 目前支持：
 - Excel: `.xlsx`, `.xls`
 - Word: `.docx`
-- CSV: `.csv`
-- JSON: `.json`
-- 文本: `.txt`
+- 其余的得等等啦...我很懒。<NocXen>
 
 ### Q: 如何贡献代码？
 
