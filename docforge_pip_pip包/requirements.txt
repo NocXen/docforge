@@ -1,0 +1,31 @@
+# DocForge - 文档自动化框架依赖
+
+# 标准库依赖
+# （尽管这个显得貌似有点多余，但是可做参考，尤其是你的Python版本过低时）
+# enum
+# typing
+# pathlib
+# dataclasses
+# datetime
+# os
+# threading
+# tempfile
+# abc
+# sys
+# importlib
+# time
+# re
+# shutil
+# hashlib
+# logging
+# subprocess
+# json
+# pickle
+# hashlib
+# sqlite3
+
+# 外部依赖
+# NONE Temporarily
+
+# 插件依赖
+# NONE Temporarily

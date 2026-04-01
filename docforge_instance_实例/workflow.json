@@ -1,0 +1,26 @@
+{
+  "name": "文档替换测试工作流",
+  "description": "从Excel提取数据并替换Word模板",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "step_id": "extract",
+      "plugin_name": "excel_extractor",
+      "config": {
+        "PlaceHolders": [
+          {"PlaceHolderName": "Reason.Activity", "Column": ["colname:事由"]},
+          {"PlaceHolderName": "Score.type", "Column": ["colname:性质"]},
+          {"PlaceHolderName": "Score.CL.int", "Column": ["colname:分数"]},
+          {"PlaceHolderName": "Time.Act.Hold.dateD", "Column": ["colname:日期"]}
+        ]
+      }
+    },
+    {
+      "step_id": "replace",
+      "plugin_name": "docx_replacer",
+      "config": {
+        "Target": ["院回执单_*.docx", "院审批单_*.docx"]
+      }
+    }
+  ]
+}

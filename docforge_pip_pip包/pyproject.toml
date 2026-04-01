@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docforge"
+dynamic = ["version"]
+description = "办公与数据处理自动化框架"
+readme = "docforge/README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Xiaomi-MiMo-V2-pro and NocXen"}
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.scripts]
+docforge = "docforge.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "docforge.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["docforge*"]
+
+[tool.setuptools.package-data]
+docforge = ["*.md", "*.txt", "*.json"]

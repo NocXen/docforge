@@ -1,0 +1,15 @@
+{
+    "logging": {
+        "level": "INFO",
+        "file": "docforge_instance/docforge.log"
+    },
+    "database": {
+        "path": "docforge_instance/docforge.db"
+    },
+    "plugins": {
+        "directory": "docforge_instance/plugins"
+    },
+    "files": {
+        "temp_directory": "docforge_instance/.cache"
+    }
+}
