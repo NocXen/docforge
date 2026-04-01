@@ -10,7 +10,7 @@ __author__ = "Xiaomi-MiMo-V2-pro and NocXen"
 __description__ = "办公与数据处理自动化框架"
 
 # 读取依赖
-with open('requirements.txt', 'r', encoding='utf-8') as f:
+with open('docforge/requirements.txt', 'r', encoding='utf-8') as f:
     requirements = [line.strip() for line in f if line.strip() and not line.startswith('#')]
 
 # 读取README
@@ -21,7 +21,7 @@ except:
     long_description = "DocForge - 办公与数据处理自动化框架"
 
 setup(
-    name='docforge',
+    name='python-docforge',
     version=__version__,
     author=__author__,
     description=__description__,
@@ -50,6 +50,6 @@ setup(
     },
     include_package_data=True,
     package_data={
-        'docforge': ['*.md', '*.txt', '*.json'],
+        'docforge': ['*.txt', '*.json'],
     },
 )

@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "docforge"
+name = "python-docforge"
 dynamic = ["version"]
 description = "办公与数据处理自动化框架"
 readme = "docforge/README.md"
@@ -35,4 +35,4 @@ version = {attr = "docforge.__version__"}
 include = ["docforge*"]
 
 [tool.setuptools.package-data]
-docforge = ["*.md", "*.txt", "*.json"]
+docforge = ["*.txt", "*.json"]
